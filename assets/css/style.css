@@ -40,15 +40,21 @@ body {
   margin-top: 150px;
 }
 
+/* ================ Personal letters ====================*/
+
+.green-code {
+  color: #00ff00;
+}
+
 /* ================ Navigation Menu ====================*/
 
 a {
-  color: #0bceaf;
+  color: #00ff00;
   background-color: transparent;
 }
 
 a:hover {
-  color: 078571;
+  color: #078571;
   text-decoration: underline;
 }
 
@@ -65,20 +71,20 @@ a:hover {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #0bceaf;
+  color: #00ff00;
 }
 
 /* ================ Seção de Sobre ====================*/
 
 .blue {
-  background-color: rgb(32, 125, 248);
-  color: #ffffff;
+  background-color: green;
+  color: black;
 }
 
 .blue:hover {
-  background-color: rgb(255, 255, 255);
-  color: #0f6eeb;
-  border-radius: 2px solid blue;
+  background-color: black;
+  color: #00ff00;
+  border-radius: 2px solid #ffffff;
 }
 
 #about,
@@ -86,6 +92,10 @@ a:hover {
 #qualification,
 #service {
   background-color: #181616;
+}
+
+#home {
+  background-image: url('../img/intro-img.jpg');
 }
 
 .progress .progress-bar {
