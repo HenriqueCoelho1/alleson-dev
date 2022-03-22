@@ -12,26 +12,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Libraries Stylesheet -->
+    <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
 
-    <nav class="navbar fixed-top navbar-expanded-lg navbar-dark p-md-3">
-        <div class="container">
-            <a href="#" class="navbar-brand">
-                <h1 class="m-0 display-5">
-                    <span class="text-dark">Alleson</span>Dev
-                </h1>
-            </a>
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Alleson</span>Dev</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Início</a>
+                <a href="#about" class="nav-item nav-link">Sobre</a>
+                <a href="#qualification" class="nav-item nav-link">Qualidades</a>
+                <a href="#skill" class="nav-item nav-link">Habilidades</a>
+                <a href="#service" class="nav-item nav-link">Serviços</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contato</a>
+            </div>
+            <a href="" class="btn btn-menu d-none d-lg-block" style="background-color:#457efa; color: #ffffff;">Me
+                contrate</a>
         </div>
     </nav>
 
@@ -45,16 +60,14 @@
                 <div class="col-lg-7 hero-text text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Olá, meu nome é</h3>
                     <h1 class="display-3 text-uppercase text-primary mb-" style="-webkit-text-stroke:4px #ffffff;">
-                        Henrique Coelho</h1>
+                        Alleson Henrique Coelho</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
 
-                    <div class="typed-text d-none">
-                        Web Dev FullStack, Web Dev BackEnd, Web Dev FrontEnd
-                    </div>
+                    <div class="typed-text d-none">Web Dev FullStack, Web Dev BackEnd, Web Dev FrontEnd</div>
 
                     <div class="d-flex align-items-center justify-content-center justify-conter-lg-start pt-5">
-                        <a href="" class="btn btn-white me-4">Baixar CV</a>
-                        <a href="#" class="btn btn-blue d-none d-sm-block me-4">Sobre mim</a>
+                        <a href="" class="btn btn-white mr-4">Baixar CV</a>
+                        <a href="#" class="btn btn-blue d-none d-sm-block mr-4">Sobre mim</a>
                     </div>
                 </div>
 
@@ -64,6 +77,286 @@
             </div>
         </div>
 
+    </div>
+
+
+
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #17181a;">Sobre</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Sobre mim</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="assets/img/coding.gif" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Full Stack Web Developer</h3>
+                    <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est
+                        tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet
+                        lorem diam dolor justo et dolor dolor dolor</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2">
+                            <h6>Nome: <span class="text-secondary">Alleson Henrique Coelho Barbosa</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Nascimento: <span class="text-secondary">1 de Março de 1997</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Experiencia: <span class="text-secondary">4 anos</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Telefone: <span class="text-secondary">+55 (12) 93300-7702</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Email: <span class="text-secondary">alleson_henrique@hotmail.com</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Freelance: <span class="text-secondary">Disponível</span></h6>
+                        </div>
+                    </div>
+                    <a href="" class="btn blue btn-outline-primary">Me contrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Habilidades
+                </h1>
+                <h1 class="position-absolute text-uppercase text-primary">Minhas habilidades</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Django</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">NodeJS</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">React JS</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Mysql/Maria/PostgreeSQL</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-item-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #17181a;">Qualidades
+                </h1>
+                <h1 class="position-absolute text-uppercase text-primary">Minhas qualidades</h1>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Qualidades de programação</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -35px; font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Código Limpo</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Pro-atividade</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Inglês Fluente</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Imaginação Fluída</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Minhas Experiências</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">React e Express</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">PHP</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Django</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Git</h5>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos
+                                ipsum est
+                                tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet
+                                lorem diam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Serviços</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Serviços que posso prover</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">FrontEnd</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Backend</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-screwdriver service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Manutenção de Sites</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-network-wired service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Integração de APIs</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem Amet lorem
+                        lorem
+                    </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-shield-alt service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Segurança digital</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem </p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="service-box col-lg-4  col-md-7 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-robot service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Criação de bots</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -81,17 +374,18 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
-        integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/typed/typed.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
 </body>
 
