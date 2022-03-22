@@ -4,6 +4,7 @@
 
 html {
   line-height: 1.15;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
