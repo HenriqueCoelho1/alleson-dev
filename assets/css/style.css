@@ -39,3 +39,97 @@ body {
 .hero-text {
   margin-top: 150px;
 }
+
+/* ================ Navigation Menu ====================*/
+
+a {
+  color: #0bceaf;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: 078571;
+  text-decoration: underline;
+}
+
+.navbar-dark {
+  display: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 25px 10px;
+  color: #ffffff;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #0bceaf;
+}
+
+/* ================ Seção de Sobre ====================*/
+
+.blue {
+  background-color: rgb(32, 125, 248);
+  color: #ffffff;
+}
+
+.blue:hover {
+  background-color: rgb(255, 255, 255);
+  color: #0f6eeb;
+  border-radius: 2px solid blue;
+}
+
+#about,
+#skill,
+#qualification,
+#service {
+  background-color: #181616;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.display-1 {
+  font-size: 160px;
+  font-weight: 1000;
+}
+
+.position-absolute {
+  font-weight: 700;
+}
+
+/* =================== Quality ======================*/
+.ex-me {
+  margin-top: 35px;
+}
+
+/* =================== Service Section ==================*/
+.service-h4 {
+  padding-bottom: 30px;
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+}
+
+.service-box {
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.service-box:hover {
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+}
